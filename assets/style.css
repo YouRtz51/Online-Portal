@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;0,700;1,400&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background:linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%) center no-repeat;
+    background-size: cover;
+    height: 800vh;
+}
+header .navbar ul li a{
+    color: #666;
+    transition: 0.3s all ease-in-out;
+}
+header .navbar ul li a:hover{
+    color: #913a50;
+}
+header nav .search{
+    border: 1px  solid rgb(119, 119, 119);
+}
+header nav .search input[type=search]{
+    outline: none;
+}
+
+/* styling of slider section */
+
+.swiper-container {
+    width: 100%;
+    height: 400px;
+}
